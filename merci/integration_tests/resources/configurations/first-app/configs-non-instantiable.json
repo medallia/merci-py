@@ -1,0 +1,13 @@
+{
+  "configs": {
+    "configs.NonInstantiableConfig": {
+      "comment" : "At runtime, the default value should never be used.",
+      "value": {
+        "hosts": ["invalid-host"],
+        "port": -1,
+        "timeoutSeconds": -1,
+        "description": "Invalid default config."
+      }
+    }
+  }
+}
